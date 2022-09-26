@@ -135,15 +135,16 @@ class Home extends StatelessWidget {
                 children: [
                   Text(
                     'By',
-                    style: TextStyle(color: Colors.grey),
+                    style: TextStyle(color: Colors.grey, fontSize: 14.sp),
                   ),
                   SizedBox(width: 2.w),
-                  Text('Fabio - Deezer Pop Editor'),
+                  Text('Fabio - Deezer Pop Editor',
+                      style: TextStyle(fontSize: 14.sp)),
                   SizedBox(width: 2.w),
                   Text(
                     '60 tracks 3 h 19 min',
-                    style: TextStyle(color: Colors.grey),
-                  )
+                    style: TextStyle(color: Colors.grey, fontSize: 14.sp),
+                  ),
                 ],
               ))
             ],
